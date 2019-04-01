@@ -1,0 +1,33 @@
+five programming problems every software dev should solve
+
+problem 1
+write three functions that compute the sum of the numbers in
+a given list using a
+-for-loop
+-while-loop
+-recursion
+this is solved in sums.
+
+problem 2
+write a function that combines two lists by alternately taking
+elements. For example given the two lists [a,b,c] and [1,2,3]
+the function should return [1,b,2,c,3]
+
+problem 3
+write a function that computes the list of the first fibonacci numbers
+by definition the first two numbers in the f sequence are 0 and 1 and
+each subsequent number is the sum of the previous two
+as an example, here are the first numbers:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+
+problem 4
+write a function that given a list of non negative integers, arranges
+them is such that they form the largest possible number
+for example, given [50, 2, 1, 9], the largest number is 95021
+ - use a lexical comparison of strings
+
+
+problem 5
+write a program that outputs all possibilities to put + or - or nothing
+ between the numbers 1, 2, ...9(in this order) such that the result is always 100
+ for example 1 + 2 + 34 -5 + 67 -8 =9 = 100
