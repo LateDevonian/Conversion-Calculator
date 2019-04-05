@@ -5,16 +5,6 @@ class Compute_sum
   #My attempt to decode Ruby Array Magic and other logic
   #This is probably taught better in mathemagics at Hogwarts
 
-  def far_to_cel(num)
-    #convert fahrenheit to celcius
-    (num -32) * 5/9
-  end
-
-  def cel_to_far(num)
-    #convert celcius to fahrenheit
-    (num *9/5)    + 32
-  end
-
   def decide_leap(year)
     #determine if a year is a leap year
     if year % 4 == 0
