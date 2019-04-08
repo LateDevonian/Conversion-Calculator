@@ -53,34 +53,6 @@ RSpec.describe Compute_sum do
     end
   end
 
-  describe 'far_to_cel' do
-    it 'converts fahrenheit to celcuis' do
-      subject = 90
-      result = computation.far_to_cel(subject)
-      expect(result).to eq(32)
-    end
-
-    it 'converts a zero to celcuis' do
-      subject = 0
-      result = computation.far_to_cel(subject)
-      expect(result).to eq(-18)
-    end
-  end
-
-  describe 'cel_to_far' do
-    it 'converts celcuis to fahrenheit' do
-      subject = 26
-      result = computation.cel_to_far(subject)
-      expect(result).to eq(78)
-    end
-
-    it 'converts a zero to fahrenheit' do
-      subject = 0
-      result = computation.cel_to_far(subject)
-      expect(result).to eq(32)
-    end
-  end
-
   describe 'decide_leap_year' do
     it 'correctly determines a leap year' do
       subject = 2020
@@ -107,6 +79,7 @@ RSpec.describe Compute_sum do
     end
   end
 
-
-
+  describe 'raises errors when invalid input' do
+    it 'avril needs to do the negative testing'
+  end
 end
