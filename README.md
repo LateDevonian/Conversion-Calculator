@@ -7,6 +7,8 @@ Complete test suite for both <--partly done
 create a rails app for front end to enter in details
 Create tests for this app
 
+Need: ruby, rspec - checkout gem file. Currently run test files to show code works using bundle exec rspec.
+
 
 08/4/2019
 updated tests
