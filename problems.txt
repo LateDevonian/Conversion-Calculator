@@ -7,11 +7,14 @@ a given list using a
 -while-loop
 -recursion
 this is solved in sums.
+- done as much as i can do
 
 problem 2
-write a function that combines two lists by alternately taking
+- write a function that combines two lists by alternately taking
 elements. For example given the two lists [a,b,c] and [1,2,3]
 the function should return [1,b,2,c,3]
+- yarp. i compressed too. which is a bit of a no no and not great code
+ but see me here with no fucks to give.
 
 problem 3
 write a function that computes the list of the first fibonacci numbers
@@ -19,15 +22,66 @@ by definition the first two numbers in the f sequence are 0 and 1 and
 each subsequent number is the sum of the previous two
 as an example, here are the first numbers:
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+-done but i fucking hate maths and this is everything i hate about maths
 
 problem 4
 write a function that given a list of non negative integers, arranges
 them is such that they form the largest possible number
 for example, given [50, 2, 1, 9], the largest number is 95021
- - use a lexical comparison of strings
+ - had to do a couple of conversions to get this to work
+ squash it all out
+ then do the comparison of indiviuals
+ then squash it all back together
+ this one was fun
+ i could probably write this more elegantly but it worked
 
 
 problem 5
 write a program that outputs all possibilities to put + or - or nothing
  between the numbers 1, 2, ...9(in this order) such that the result is always 100
  for example 1 + 2 + 34 -5 + 67 -8 =9 = 100
+
+ problem 6 Fizzbuzz
+ write a program that prints the numbers from 1 to 100
+ but for multiples of 3 print fizz instead of the number and for the
+ multiples of five print buzz. for numbers which are multiples of 5 and three
+ print fizzbuzz.
+
+ problem 7 coin flips
+ how many different ways are there to flip a fair coin 5 times and not have three
+ or more heads in a row? how about 10 to the 10 times and not have 534 or more heads in a row?
+
+ 8. question marks
+ have a function take the str parameter, wich contains single digit numbers, nletters, adn ?
+ check if there are exactly 3 question marks between every pair of 2 numbers that add up to 10
+ if so, return tru
+ othersiese fals
+ if there arnt' any 2 numbers that add up to 10 in the string, return false
+
+ input: aa6?9 - false
+ acc?7??sss?3rr1??????5 - true
+ aarb6???4xxbl5???eee5 - true : there are 3 question marks beteen 6 and 4 and 3 question
+ marks between 5 and 5
+
+ 9. vowel square
+ have a fucntion take  a parameter passed with is a 2d matrix of arbitrary size filled with
+ the letters from the alphabet, and determine if a 2*2 square composed entirely of vowels
+ exists in in the matrix. ex
+ abcd
+ eikr
+ oufj
+
+ has ei ou
+ program needs to return the top left position, 1=-. if no square of vowels comes out
+ return not found. if multiple squares of vowedl return the one that is most top left of the matric
+ input matrix must be at least 2 by 2
+
+ eg input ['aqrst', 'ukeai', ffooo]
+ output '1-2'
+
+ ['gg', 'ff'] outptu is not found
+ 10. scale balancing
+
+ 11. correct path
+
+ 12. closest enemy

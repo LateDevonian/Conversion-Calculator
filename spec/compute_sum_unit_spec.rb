@@ -81,5 +81,6 @@ RSpec.describe Compute_sum do
 
   describe 'raises errors when invalid input' do
     it 'avril needs to do the negative testing'
+    it 'tests it comes out as a float when you don\'t convert to f'
   end
 end
