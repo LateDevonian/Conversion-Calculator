@@ -13,19 +13,34 @@ class Fizzbuzz
   end
 
   def fb
-    (1..100).each do |n|
+    #create an array
+    (1..100).map do |n|
       if n % 5 == 0 && n % 3 == 0
-        puts  "fizzbuzz"
+        "fizzbuzz"
           elsif n % 5 == 0
-            puts  "buzz"
-            elsif n % 3 == 0
-              puts  "fizz"
-              else
-                puts  n
+           "buzz"
+          elsif n % 3 == 0
+             "fizz"
+          else
+            n
+          end
       end
     end
   end
 
+    # (1..100).each do |n|
+    #   if n % 5 == 0 && n % 3 == 0
+    #     puts  "fizzbuzz"
+    #       elsif n % 5 == 0
+    #         puts  "buzz"
+    #         elsif n % 3 == 0
+    #           puts  "fizz"
+    #           else
+    #             puts  n
+    #   end
+    # end
+#
 
 
-end
+
+#

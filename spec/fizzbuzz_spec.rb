@@ -33,10 +33,27 @@ RSpec.describe Fizzbuzz do
   end
 
   describe 'it prints 100 numbers with fizz and buzz' do
-    it 'puts an array of fizzbuzz' do
+    it 'prints out the full array of fizzbuz' do
       result = fb.fb
-      expect(result).to eq("fizzbuzz")
+      expect(result.count).to eq 100
     end
+
+    it 'expects there to be fizz on three divisible' do
+      result = fb.fb
+      expect(result.count("fizz")).to eq 27
+    end
+
+    it 'expects there to be buzz on five divisible' do
+      result = fb.fb
+      expect(result.count("buzz")).to eq 14
+    end
+
+    it 'expects there to be fizzbuzz on three/five divisible' do
+      result = fb.fb
+      expect(result.count("fizzbuzz")).to eq 6
+    end
+
+
   end
 
 end

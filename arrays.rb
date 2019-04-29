@@ -44,6 +44,7 @@ def get_guitarists(band)
   end
   #object is an array as defined. loop over it once and don'thave to compact
 end
+#do a thing
 
   # can do a names[] << stuff the same thing as notideal in
 

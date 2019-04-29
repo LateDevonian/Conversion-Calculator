@@ -10,13 +10,14 @@ RSpec.describe Possible do
 
     describe 'outputs all possibilities' do
 
-      it 'provides a list of possibilites that add up to 100' do
+      it 'has 11 results from 1 to 100' do
         result = pos.possibility
-        expect(result).to eq ("i have no idea how to do this yet")
-
+        expect(result.count).to eq 11
       end
 
+      it 'formats the results as strings showing the workings' do
+        result = pos.possibility
+        expect(result[0]).to eq("1+2+3-4+5+6+78+9")
+      end
     end
-
-
 end
