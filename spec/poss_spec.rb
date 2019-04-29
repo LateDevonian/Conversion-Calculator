@@ -5,7 +5,7 @@
 require 'rspec'
 require_relative '../possibilities/poss'
 
-RSpec describe Possible do
+RSpec.describe Possible do
     let(:pos) { Possible.new }
 
     describe 'outputs all possibilities' do

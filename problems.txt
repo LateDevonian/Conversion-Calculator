@@ -40,6 +40,8 @@ problem 5
 write a program that outputs all possibilities to put + or - or nothing
  between the numbers 1, 2, ...9(in this order) such that the result is always 100
  for example 1 + 2 + 34 -5 + 67 -8 =9 = 100
+So this problem is way beyond my comprehension but i did learn two things: eval, and
+repeated_permutation method on arrays.
 
  problem 6 Fizzbuzz
  write a program that prints the numbers from 1 to 100
@@ -52,10 +54,10 @@ write a program that outputs all possibilities to put + or - or nothing
  or more heads in a row? how about 10 to the 10 times and not have 534 or more heads in a row?
 
  8. question marks
- have a function take the str parameter, wich contains single digit numbers, nletters, adn ?
+ have a function take the str parameter, wihch contains single digit numbers, nletters, adn ?
  check if there are exactly 3 question marks between every pair of 2 numbers that add up to 10
- if so, return tru
- othersiese fals
+ if so, return true
+ otherwiese fails
  if there arnt' any 2 numbers that add up to 10 in the string, return false
 
  input: aa6?9 - false
@@ -64,7 +66,7 @@ write a program that outputs all possibilities to put + or - or nothing
  marks between 5 and 5
 
  9. vowel square
- have a fucntion take  a parameter passed with is a 2d matrix of arbitrary size filled with
+ have a function take  a parameter passed with is a 2d matrix of arbitrary size filled with
  the letters from the alphabet, and determine if a 2*2 square composed entirely of vowels
  exists in in the matrix. ex
  abcd
@@ -85,3 +87,9 @@ write a program that outputs all possibilities to put + or - or nothing
  11. correct path
 
  12. closest enemy
+
+ 13. floodfill
+ accept 2 numbers, with and hight. accept a grid of ascii characters size w/. accept two more numbers, x and y
+ and a character c. x and y arre co ordinates on teh image where the flood fill should be done
+ and c is the harcat when they sare at least one edge er to be filled
+ pixes are defined as contigous (touching)
