@@ -16,10 +16,16 @@ RSpec.describe VowelSquare do
 
     let(:matrix) { [ 'abcd','eikr','oufj'] }
 
-     it 'returns a positive if there is a square of 4 vowels' do
+    it 'makes sure there is more than one element in the array' do
+      matrix = ['ae']
+     result = vs.is_vowelsquare?(matrix)
+     expect(result).to eq "not suitable for this test"
+   end
+
+     xit 'returns a positive if there is a square of 4 vowels' do
        matrix = ['ae', 'fj']
       result = vs.is_vowelsquare?(matrix)
-      expect(result).to eq true
+      expect(result).to eq 'huzzah'
     end
   end
 end

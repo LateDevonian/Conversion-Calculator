@@ -14,6 +14,18 @@ band = [
   }
 ]
 
+def name_start_h(band)
+  band.map do |member|
+    member[:name].scan
+  end
+
+
+
+end
+puts name_start_h(band)
+
+
+
 def get_names(band)
   #map is the same as each, steps through an array and passes
   #to a block
@@ -54,7 +66,6 @@ end
   #   member[:name] if member[:instruments].include?('guitar')
   # end.compact
   ## goes over the array and squashes the null, so not ideal
-puts get_guitarists(band)
 
 # oldschool name of getting names. works but not ruby enough
 # def get_names(band)
