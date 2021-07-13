@@ -16,7 +16,7 @@ gem 'will_paginate', '~> 3.1', '>= 3.1.7'
 gem 'rack-test', '1.1.0'
 gem 'rake'
 gem 'activerecord'
-gem 'addressable','2.6.0'
+gem 'addressable','2.8.0'
 
 group :development do
   gem "sinatra-contrib"
