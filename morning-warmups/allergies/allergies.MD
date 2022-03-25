@@ -26,3 +26,32 @@ allergies.allergic_to?('cats')
 => false
 allergies.list
 => ['peanuts', 'chocolate']
+
+# class JM 
+#     constructor(score) {
+#         this.score = score;
+#         this.allergyList = [
+#            {} name: 'cats', value: 128},
+#            {}
+#         ]
+#     }
+#     findMatchingAllergies(score, allergyList, matches = [] {
+#         if score === 0 || allergergyList.length === 0 {
+#             return matches;
+#         }
+#         const [allergy, ...remainingAllergies] = allergyList;
+#         if (score >= allergy.value ){
+#             return this.findMatchingAllergies(remainingScore, remainingAllergies, [allergy.name, ...matches])
+#         }
+#         if (score < allergy.vaule) {
+#             return this.findMatchingAllergies(score, remainingAllergies, matches)
+#         }
+#         list(){
+#             return this.findMathcingAllergies(this.score, this.allergyList)
+
+#         }
+#         is AlleergicTo(allergen {
+#             return this.list().includes(allergen)
+#         }
+    # })
+# end
